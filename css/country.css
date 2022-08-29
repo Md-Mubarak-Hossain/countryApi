@@ -1,0 +1,27 @@
+.country-div {
+
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+#header {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: hsla(0, 100%, 4%, 0.877);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#country {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
